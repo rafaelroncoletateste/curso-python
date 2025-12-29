@@ -21,8 +21,14 @@
 # listaNumeros.append(50) # Adiciona ao final da lista
 # listaNumeros.pop() # Remove o último elemento da lista
 
-listaNumeros = [10, 20, 30 ,40]
-ultimoItem = listaNumeros.pop()
-listaNumeros.insert(0, 1200)
+# listaNumeros = [10, 20, 30 ,40]
+# ultimoItem = listaNumeros.pop()
+# listaNumeros.insert(0, 1200)
 
-print(ultimoItem)
+# print(ultimoItem)
+
+listaA = [1, 2, 3]
+listaB = [4, 5, 6]
+listaC = listaA + listaB # Concatenação
+
+print(listaC)
