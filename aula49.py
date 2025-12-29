@@ -4,8 +4,13 @@ Cuidados com dados mutáveis
     = - aponta para o  mesmo valor na memória
 """
 
-lista_a = ['Rafael', 'Gabriel']
-lista_b = lista_a.copy() # Faz uma cópia da lista
+# lista_a = ['Rafael', 'Gabriel']
+# lista_b = lista_a.copy() # Faz uma cópia da lista
 
-lista_a[0] = 'Aleatório'
-print(lista_b)
+# lista_a[0] = 'Aleatório'
+# print(lista_b)
+
+lista = ['Rafael', 'Gabriel']
+
+for item in lista:
+    print(item)
